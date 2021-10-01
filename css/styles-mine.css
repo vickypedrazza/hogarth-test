@@ -1,0 +1,221 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+@media (min-width: 1080px) {
+   .home-hero{
+    display: grid;
+    
+} 
+}
+
+
+
+.image-space{
+    background-image: url(/images/final-frontier_large.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 960px;
+    position: relative;
+    
+}
+
+
+.copy-space{
+    text-align: center;
+    max-width: 100%;
+    transform:translate(0, -365%);
+    top:50%;
+    left:90%;
+    z-index:1;
+
+}
+    
+@media (max-width: 1045px) {
+    .image-space{
+        background-image: url(/images/final-frontier_medium.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 712px;
+        display: grid;
+        grid-template-columns: repeat(2, 50%)
+    }
+    
+    
+    .hero-image{
+        background-image: url(/images/luna_medium.jpg ) no-repeat center /cover;
+        background-repeat: no-repeat;
+        display: grid;
+        grid-template-columns: repeat(2, 50%)
+    }
+} 
+
+
+
+
+@media (max-width: 786px) {
+    .image-space{
+        background-image: url(/images/final-frontier_small.jpg) no-repeat center /cover;
+        width: 100%;
+        height: 500px;
+        background-repeat: no-repeat;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        
+    }
+    .hero-image{
+        background-image: url(/images/luna_small.jpg) no-repeat center /cover;
+        background-repeat: no-repeat;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        top: 100px;
+    }
+}
+@media (min-width: 786px) {
+    .home-hero{
+        display: grid;
+        grid-template-columns: repeat(2, 50%)
+    }
+}
+
+.timeline-3{
+    margin: -292px 0 0 0;
+}
+.timeline-5{
+    margin: -94px 0 0 0;
+}
+
+@media (max-width: 560px) {
+    .timeline-3{
+        margin: 0px 0 0 0;
+    }
+    .timeline-5{
+        margin: 0px 0 0 0;
+    }
+}
+
+.img-gallery{
+    width: 100%;
+}
+
+.row-gallery{
+    display: flex;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.img1{
+    height: 500px;
+    object-fit: cover;
+    object-position: -210px 0px ;
+    position: relative;
+    z-index: 1;
+}
+
+.img2{
+position: relative;
+z-index: 2;
+height: 500px;
+width: 750px;
+object-fit: cover;
+object-position: 50% 50%;
+}
+
+.img3{
+    height: 500px;
+    object-fit: cover;
+    object-position: -210px 0px ;
+    position: relative;
+    z-index: 3;
+    margin-right: -510px;
+}
+
+.img4{
+position: relative;
+z-index: 2;
+height: 500px;
+width: 800px;
+object-fit: cover;
+object-position: -50px 0px;
+}
+
+.img5{
+    height: 500px;
+    object-fit: cover;
+    object-position: -210px 0px ;
+    position: relative;
+    z-index: 1;
+}
+
+
+.img6{
+    position: relative;
+    z-index: 2;
+    height: 500px;
+    width: 750px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.img7{
+    height: 500px;
+    object-fit: cover;
+    object-position: -210px 0px ;
+    position: relative;
+    z-index: 3;
+    margin-right: -510px;
+}
+
+.img8{
+    position: relative;
+    z-index: 2;
+    height: 500px;
+    width: 800px;
+    object-fit: cover;
+    object-position: -50px 0px;
+}
+
+.img9{
+    height: 500px;
+    object-fit: cover;
+    object-position: -210px 0px ;
+    position: relative;
+    z-index: 1;
+}
+
+.img10{
+    position: relative;
+    z-index: 2;
+    height: 500px;
+    width: 750px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+@media (max-width: 860px) {
+    .row-gallery{
+        justify-content: center;
+        display: inline-block;
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-width: 375px) {
+    .row-gallery{
+        justify-content: center;
+        display: inline-block;
+        max-width: 614px;
+        max-height: 614px;
+    }
+}
